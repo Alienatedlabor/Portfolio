@@ -4,30 +4,58 @@
   padding: 0;
 }
 body{
-  background-color:#0A1612;
+  background-color:#1F3044;
+  height: 100vh;
+}
+.hero{
+  color: #FB9039;
+  height: 100vh;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container{
   display:flex;
   flex-direction: column;
-  background-color: #1A2930;
+
 }
 .header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- 
+  height: 5vh;
 }
 .nav{
   display: flex;
   gap: 10px;
   list-style: none;
 }
+.about{
+  height: 40vh;
+  color: white;
+}
 .portfolio{
-background-color: #C5C1C0;
-display:flex;
+background-color: #646C79;
+}
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: 30vh;
 }
 .project{
   background-color:#F7CE3E ;
   display: flex;
-  flex-direction: row
+  flex-direction: column;
+  margin: auto;
+}
+footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  
 }
