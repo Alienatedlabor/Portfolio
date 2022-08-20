@@ -1,61 +1,106 @@
-*{
+* {
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
-body{
-  background-color:#1F3044;
+body {
+  background-color: #1f3044;
   height: 100vh;
 }
-.hero{
-  color: #FB9039;
+.hero {
   height: 100vh;
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f7ce3e;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
+    1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc,
+    3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc,
+    5px 6px 1px #eee, 7px 6px 1px #ccc;
+  transition: 0.03s;
 }
-.container{
-  display:flex;
+.container {
+  display: flex;
   flex-direction: column;
-
 }
-.header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 5vh;
 }
-.nav{
+a {
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+a:hover {
+  opacity: 80%;
+  border-bottom: solid #fb9039;
+}
+nav {
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
+  align-items: center;
+}
+.links {
   display: flex;
   gap: 10px;
+  font-size: 18px;
   list-style: none;
+  color: white;
+  gap: 2rem;
+  font-weight: 600;
 }
-.about{
+h1 {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.about {
   height: 40vh;
   color: white;
+  margin-left: 15px;
+  font-size: 20px;
 }
-.portfolio{
-background-color: #646C79;
+.text {
+  max-width: 40vw;
+  line-height: 2rem;
 }
-.projects-container{
+h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 32px;
+}
+.portfolio {
+  display: flex;
+  background-color: #646c79;
+  border-radius: 6px;
+  width: 98vw;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.projects-container {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   height: 30vh;
+  overflow-wrap: normal;
 }
-.project{
-  background-color:#F7CE3E ;
+.project {
+  background-color: #f7ce3e;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-footer{
+footer {
   color: white;
   display: flex;
   justify-content: center;
 }
-a{
+a {
   text-decoration: none;
-  
 }
