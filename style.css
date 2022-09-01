@@ -87,14 +87,16 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  height: 30vh;
+  height: 60vh;
   overflow-wrap: normal;
 }
 .project {
   background-color: #f7ce3e;
   display: flex;
   flex-direction: column;
+  gap: 10px;
   margin: auto;
+  width: 600px;
 }
 footer {
   color: white;
