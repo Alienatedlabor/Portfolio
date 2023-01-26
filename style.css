@@ -86,8 +86,10 @@ h2 {
 .projects-container {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
-  height: 60vh;
+  gap: 1rem;
+  height: auto;
+  padding: 1rem;
+  flex-wrap: wrap;
   overflow-wrap: normal;
 }
 .project {
@@ -97,6 +99,7 @@ h2 {
   gap: 10px;
   margin: auto;
   width: 600px;
+  padding: 1rem;
 }
 footer {
   color: white;
